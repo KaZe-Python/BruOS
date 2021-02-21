@@ -18,10 +18,10 @@ Crea un immagine per il "build-environment"
 Per accedere al container docker:
  - Linux o MacOS: `docker run --rm -it -v "$pwd":/root/env bruos-buildenv`
  - Windows (CMD): `docker run --rm -it -v "%cd%":/root/env bruos-buildenv`
- - Windows (PowerShell): `docker run --rm -it -v "${pwd}":/root/env bruos-buildenv`
+ - Windows (PowerShell): `docker run --rm -it -v ${pwd}:/root/env bruos-buildenv`
 
 Crea per x86:
- - `make build-x86-64`
+ - `make build-x86_64`
 
 Per uscire dal container, inserisci `exit`.
 
